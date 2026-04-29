@@ -8,21 +8,21 @@ While it replicates academic course labs, the core objective of this project rem
 
 This project primarily encompasses the complete implementation of the following three core data structure modules:
 
-### 1. Lab 05: Disjoint Sets
+### 1. Disjoint Sets
 * **Overview**: Implemented a highly efficient data structure for solving dynamic connectivity problems.
 * **Key Features**:
   * Supports rapid querying to determine if two elements belong to the same set (`isConnected`).
   * Supports efficiently merging two distinct sets (`connect`).
   * **Optimization Strategies**: Utilized advanced optimization techniques internally, including **Union-by-Size** and **Path Compression**, ensuring the amortized time complexity for nearly all operations approaches $O(1)$.
 
-### 2. Lab 06: BSTMap
+### 2. BSTMap
 * **Overview**: A custom dictionary/map structure implemented based on a Binary Search Tree (BST).
 * **Key Features**:
   * Implemented core APIs analogous to the JDK `Map` interface (e.g., `put`, `get`, `containsKey`, `size`, `clear`).
   * Solidified understanding of recursive and non-recursive tree traversal, as well as node insertion and search logic.
   * Serves as the foundational stepping stone for implementing advanced self-balancing trees (LLRBs) in subsequent labs.
 
-### 3. Lab 07: Left-Leaning Red-Black Trees (LLRBs)
+### 3. Left-Leaning Red-Black Trees (LLRBs)
 * **Overview**: Implemented the Left-Leaning Red-Black Tree, an equivalent structure to the 2-3 tree, representing one of the most challenging concepts in advanced data structures.
 * **Key Features**:
   * Strictly maintains tree balance through core self-balancing mechanisms, including `rotateLeft`, `rotateRight`, and `colorFlip`.
