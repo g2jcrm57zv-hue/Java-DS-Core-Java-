@@ -8,21 +8,21 @@
 
 本项目主要涵盖了以下三个核心数据结构模块的完整实现：
 
-### 1. Lab 05: Disjoint Sets (并查集)
+### 1. Disjoint Sets (并查集)
 * **简介**：实现了一种用于处理动态连通性问题的高效数据结构。
 * **核心特性**：
   * 支持快速判断两个元素是否属于同一集合 (`isConnected`)。
   * 支持高效地将两个不同的集合合并 (`connect`)。
   * **优化策略**：内部采用了**按大小合并 (Union-by-Size)** 以及**路径压缩 (Path Compression)** 等高级优化手段，确保几乎所有操作的摊销时间复杂度接近 $O(1)$。
 
-### 2. Lab 06: BSTMap (二叉查找树映射)
+### 2. BSTMap (二叉查找树映射)
 * **简介**：基于二叉查找树 (Binary Search Tree) 实现的自定义字典/映射表结构。
 * **核心特性**：
   * 实现了类似于 JDK 中 `Map` 接口的核心 API（如 `put`, `get`, `containsKey`, `size`, `clear` 等）。
   * 深入理解了树的递归与非递归遍历、节点的插入与查找逻辑。
   * 作为后续实现高级自平衡树（LLRB）的底层基石。
 
-### 3. Lab 07: LLRBs (Left-Leaning Red-Black Trees / 左倾红黑树)
+### 3. LLRBs (Left-Leaning Red-Black Trees / 左倾红黑树)
 * **简介**：实现了 2-3 树的等价结构——左倾红黑树，这是高级数据结构中最具挑战性的部分之一。
 * **核心特性**：
   * 通过 `rotateLeft`（左旋）、`rotateRight`（右旋）和 `colorFlip`（颜色翻转）等核心自平衡机制，严格维护树的平衡性。
