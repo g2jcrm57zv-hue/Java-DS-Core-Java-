@@ -33,3 +33,4 @@ This project primarily encompasses the complete implementation of the following 
 
 * **Language**: Java 17+ *(adjust according to your actual version)*
 * **Testing**: Utilized JUnit to write and execute unit tests targeting various edge cases and boundary conditions of the implemented data structures.
+* **External Libraries**: Uses the official CS61B provided library-sp24.
